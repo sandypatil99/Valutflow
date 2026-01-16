@@ -25,6 +25,10 @@ body {
     height: auto;
 }
 
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
 .navbar .nav-link {
     color: #ecececae;
     font-size: clamp(0.65rem, 1.5vw, 0.85rem);
@@ -40,7 +44,7 @@ body {
 
 .lead{
     color: #ececec96;
-    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    font-size: 0.8rem;
     line-height: 1.6;
 }
 
