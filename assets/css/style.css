@@ -12,22 +12,16 @@ body {
     overflow-x: hidden;
 }
 
-
 /* Navbar */
 .navbar {
     background-color: #0B0121;
-    justify-content: center;
-    padding: 1rem 0;
 }
 
 .navbar-logo img {
-    max-width: 150px;
-    height: auto;
+    max-width: 138px;
+    height: 22px;
 }
 
-.navbar-toggler-icon {
-    filter: brightness(0) invert(1);
-}
 
 .navbar .nav-link {
     color: #ecececae;
@@ -46,6 +40,7 @@ body {
     color: #ececec96;
     font-size: 0.8rem;
     line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -70,17 +65,14 @@ body {
 
 .hero h1 {
     font-size: clamp(1.8rem, 8vw, 4rem);
-    font-weight: 700;
-    line-height: 1.2;
-    background: linear-gradient(90deg, #f4f4f5, #bbc1ca, #878d9a);
+    font-weight: 400;
+    line-height: 1.0;
+    background: linear-gradient(175deg, #cdcbcb, #a4abb7, #505764);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 1.5rem;
 }
 
-.hero p {
-    font-size: clamp(0.9rem, 2vw, 1rem);
-}
 
 
 

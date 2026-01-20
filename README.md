@@ -1,2 +1,0 @@
-# Valutflow
- Animated Web Page
