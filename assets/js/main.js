@@ -1,14 +1,14 @@
-const backToTop = document.getElementById("backToTop");
+const backtoTop = document.getElementById("backtoTop");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 300) {
-    backToTop.classList.remove("d-none");
+  if (window.scrollY > 400) {
+    backtoTop.classList.remove("d-none");
   } else {
-    backToTop.classList.add("d-none");
+    backtoTop.classList.add("d-none");
   }
 });
 
-backToTop.addEventListener("click", () => {
+backtoTop.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
     behavior: "smooth"
@@ -28,7 +28,7 @@ backToTop.addEventListener("click", () => {
         event.preventDefault()
         event.stopPropagation()
       }
-      form.classList.add('was-validated')
+      form.classList.add('was-validated') //bootstrap validation style
     }, false)
   })
 })()
